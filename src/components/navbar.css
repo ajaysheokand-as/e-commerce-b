@@ -1,0 +1,18 @@
+.nav_content {
+    display: flex;
+    justify-content: space-between;
+}
+.widgets-wrap{
+    display: flex;
+}
+.widgets-icon{
+    text-align: center;
+}
+.widgets-icon ul li{
+    list-style: none;
+}
+.widgets-icon svg{
+    color: #8B96A5;
+    width: 20px;
+    height: 19px;
+}
