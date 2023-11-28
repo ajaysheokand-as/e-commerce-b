@@ -13,7 +13,7 @@
 {
     color: #8B96A5;
     font-family: sans-serif;
-    margin: 5px 0px 0px 15px;
+    margin: 10px 0px 0px 15px;
     font-size: 16px;
     display: flex;
 }
@@ -21,7 +21,7 @@
 {
     height: 20px;
     width: 20px;
-    margin: 15px 0px 0px 2px;
+    margin: 3px 0px 0px 2px;
 }
 .bottom
 {
@@ -48,6 +48,7 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
+    margin-top: 10px;
     color: #1C1C1C;
 }
 .cat_img
@@ -84,7 +85,7 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
-    line-height: 10px;
+    margin-top: 10px;
     color: #1C1C1C;
 }
 .Brand_img
@@ -137,7 +138,7 @@
     width: 90%;
     margin-left: 10px;
     height: 200px;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 .Features_head
 {
@@ -145,6 +146,7 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
+    margin-top: 10px;
     color: #1C1C1C;
 }
 .Features_img
@@ -182,12 +184,13 @@
     width: 90%;
     margin-left: 10px;
     height: 40px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .Price_range_head
 {
     display: flex;
     font-size: 16px;
+    margin-top: 10px;
     font-family: sans-serif;
     font-weight: 600;
     color: #1C1C1C;
@@ -197,7 +200,7 @@
 {
     height: 24px;
     width: 22px;
-    margin: 10px 0px 0px 83px;
+    margin: 0px 0px 0px 83px;
 }
 .Condition
 {
@@ -213,6 +216,7 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
+    margin-top: 10px;
     color: #1C1C1C;
 }
 
@@ -220,7 +224,7 @@
 {
     height: 24px;
     width: 22px;
-    margin: 10px 0px 0px 95px;
+    margin: 0px 0px 0px 95px;
 }
 .Ratings
 {
@@ -236,6 +240,7 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
+    margin-top: 10px;
     color: #1C1C1C;
 }
 
@@ -243,7 +248,7 @@
 {
     height: 24px;
     width: 22px;
-    margin: 10px 0px 0px 111px;
+    margin: 0px 0px 0px 111px;
 }
 .Manufacturer
 {
@@ -259,6 +264,7 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
+    margin-top: 10px;
     color: #1C1C1C;
 }
 
@@ -266,7 +272,7 @@
 {
     height: 24px;
     width: 22px;
-    margin: 10px 0px 0px 67px;
+    margin: 0px 0px 0px 67px;
 }
 .bottom_right
 {
@@ -370,7 +376,7 @@
 {
     font-family: sans-serif;
     font-weight: 400;
-    margin: 6px 0px 0px 5px;
+    margin: 3px 0px 0px 5px;
     color: #505050;
 }
 .clear_sams
@@ -532,6 +538,7 @@
     font-weight: 600;
     font-family: sans-serif;
     margin-left: 18px;
+    margin-top: 15px;
     display: flex;
 }
 .strike_price
@@ -564,17 +571,17 @@
     font-family: sans-serif;
     width: 205px;
     color: #606060;
-    margin: 20px 0px 0px 18px;
+    margin: 15px 0px 0px 18px;
 }
 .like
 {
-    margin: 10px 0px 0px 85px;
+    margin: 0px 0px 0px 95px;
     height: 40px;
     width: 40px;
 }
 .like_span
 {
-    margin: 10px 0px 0px 85px;
+    margin: 0px 0px 0px 175px;
     height: 40px;
     width: 40px;
 }
@@ -590,6 +597,124 @@
     }
 }
 @media screen and (max-width: 1280px)
+{
+    *{
+        font-size: 15px;
+    }
+    .card_img
+    {
+        width: 150px;
+        height: 180px;
+    }
+    .item_name
+    {
+        margin: 15px 0px 0px 18px;
+    }
+    .like_span
+    {
+        margin-left: 95px;
+    }
+    .like
+    {
+        margin-left: 28px;
+    }
+    .tag_text
+    {
+        margin-top: 5px;
+    }
+    .card1
+    {
+        margin-left: 50px;
+        height: 330px;
+        width: 210px;
+    }
+    .card2
+    {
+        margin-left: 30px;
+        width: 210px;
+        height: 330px;
+    }
+    .card3
+    {
+        margin-left: 30px;
+        width: 210px;
+        height: 330px;
+    }
+    .cat_head
+    {
+        margin-top: 10px;
+    }
+    .cat_img
+    {
+        margin:0px 0px 0px 30px;
+    }
+    .Brand_img
+    {
+        margin: -5px 0px 0px 55px;
+    }
+    .Brand
+    {
+        margin-top: 10px;
+    }
+    .Brand_head
+    {
+        margin-top: 10px;
+    }
+    .Features_head
+    {
+        margin-top: 10px;
+    }
+    .Features_img
+    {
+        margin: -5px 0px 0px 38px;
+    }
+    .Price_range
+    {
+        margin-top: 140px;
+    }
+    .Price_range_img
+    {
+        margin: 0px 0px 0px 17px;
+    }
+    .Condition_img
+    {
+        margin: 0px 0px 0px 29px;
+    }
+    .Ratings_img
+    {
+        margin: 0px 0px 0px 42px;
+    }
+    .Manufacturer_img
+    {
+        margin: 0px 0px 0px 7px;
+    }
+    .nav
+    {
+        width: 800px;
+    }
+    .nav_text
+    {
+        margin: 20px 0px 0px 15px;
+        width: 300px;
+    }
+    .verfie
+    {
+        margin: 10px 0px 0px 100px;
+    }
+    .nav_fetures
+    {
+        width: 130px;
+    }
+    .nav_fetures_text
+    {
+        margin-top: 7px;
+    }
+    .Featured_img
+    {
+        margin-left: 25px;
+    }
+}
+@media screen and (max-width: 1024)
 {
     *{
         font-size: 14px;
@@ -613,7 +738,7 @@
     }
     .card1
     {
-        margin-left: 70px;
+        margin-left: 80px;
         width: 250px;
     }
     .card2
@@ -666,5 +791,79 @@
     .verfie
     {
         margin: 10px 0px 0px 280px;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    *{
+        font-size: 14px;
+    }
+    .card_img
+    {
+        width: 100px;
+        height: 150px;
+    }
+    .item_name
+    {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    .like_span
+    {
+        margin-left: 95px;
+        height: 35px;
+        width: 35px;
+    }
+    .like
+    {
+        margin-left: 30px;
+        height: 35px;
+        width: 35px;
+    }
+    .card1
+    {
+        margin-left: 20px;
+        height: 300px;
+        width: 200px;
+    }
+    .card2
+    {
+        margin-left: 30px;
+        width: 200px;
+        height: 300px;
+    }
+    .card3
+    {
+        margin-left: 30px;
+        width: 200px;
+        height: 300px;  
+    }
+    .tags
+    {
+        margin-left: -15px;
+        width: 750px
+    }
+    .Samsung
+    {
+        margin-left: 0px;
+        width: 100px;
+    }
+    .nav
+    {
+        margin-left: -15px;
+        width: 750px;
+    }
+    .nav_text
+    {
+        margin: 20px 0px 0px 15px;
+        width: 300px;
+    }
+    .verfie
+    {
+        margin: 10px 0px 0px 50px;
+    }
+    .bottom_left
+    {
+        display: none;
     }
 }

@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import Product from './components/Product';
 import Navbar from './components/Navbar';
-import Section1 from './Component/Section1/section1';
+import Section1 from './components/Section1/section1';
 function App() {
   return (
     <>
