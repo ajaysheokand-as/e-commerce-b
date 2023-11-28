@@ -1,18 +1,14 @@
+import logo from './logo.svg';
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
-import Product from './components/Product';
-import Navbar from './components/Navbar';
-import Fig2 from './components/fig2';
-
-
+import Fig2 from './Component/fig2/fig2';
 function App() {
   return (
-    <>
-      <Navbar />
-      <Product />
-      <Fig2/>
-    </>
+    <div>
+      <div>
+          <Fig2/>
+        </div>
+      
+    </div>
   );
 }
 
