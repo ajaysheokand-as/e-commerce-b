@@ -179,8 +179,8 @@ function Fig2() {
                         <input type="checkbox"></input>
                         <div className="verify_check">Verified only</div>
                         <div className="feature">Featured <i class="bi bi-chevron-down"></i></div>
-                        <img src={gridview}></img>
-                        <img src={listview}></img>
+                        <img src={gridview} alt='img'/>
+                        <img src={listview} alt='img'/>
                     </div>
                     <div className="available_items">
                         <div className="img1">

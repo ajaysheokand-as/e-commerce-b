@@ -136,3 +136,42 @@ export const Datastr2 = [
     }
 ]
 
+export const Databnr = [
+    {
+        id: 1,
+        txt: 'Automobiles'
+    },
+    {
+        id: 2,
+        txt: 'Clothes and wear'
+    },
+    {
+        id: 3,
+        txt: 'Home interiors'
+    },
+    {
+        id: 4,
+        txt: 'Computer and tech'
+    },
+    {
+        id: 5,
+        txt: 'Tools, equipments'
+    },
+    {
+        id: 6,
+        txt: 'Sports and outdoor'
+    },
+    {
+        id: 7,
+        txt: 'Animal and pets'
+    },
+    {
+        id: 8,
+        txt: 'Machinery tools'
+    },
+    {
+        id: 9,
+        txt: 'More category'
+    }
+]
+
