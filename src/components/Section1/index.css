@@ -39,7 +39,6 @@
     border-top: 2px solid #DEE2E7;
     width: 90%;
     margin-left: 10px;
-    height: 200px;
     margin-top: 20px;
 }
 .cat_head
@@ -55,7 +54,7 @@
 {
     height: 24px;
     width: 22px;
-    margin: 10px 0px 0px 98px;
+    margin-left: 98px;
 }
 .cat_content
 {
@@ -92,7 +91,7 @@
 {
     height: 24px;
     width: 22px;
-    margin: 10px 0px 0px 120px;
+    margin-left: 120px;
 }
 .Brand_content
 {
@@ -153,7 +152,7 @@
 {
     height: 24px;
     width: 22px;
-    margin: 10px 0px 0px 100px;
+    margin-left: 100px;
 }
 .Features_content
 {
@@ -316,6 +315,7 @@
     font-family: sans-serif;
     height: 40px;
     font-size: 16px;
+    margin-left: 4px;
     font-weight: 400;
 }
 .nav_fetures
@@ -335,7 +335,7 @@
     font-size: 16px;
     font-weight: 400;
     font-family: sans-serif;
-    margin: 10px 0px 0px 10px;
+    margin: 7px 0px 0px 10px;
 }
 .Featured_img
 {

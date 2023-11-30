@@ -15,8 +15,10 @@ import watch from '../../Images/Watch.png'
 import star4 from '../../Images/4rating.png'
 import star3 from '../../Images/rating.png'
 import heart from '../../Images/btn-basic.png'
+import React from 'react'
 function Section1 ()
 {
+        const [status,setState]=React.useState(true)
   return(
     <div className="main">
             <div className="top">
@@ -35,15 +37,20 @@ function Section1 ()
                     <div className="Category">
                             <div className="cat_head">
                                 <p>Category</p>
-                                <img className="cat_img" src={img5} alt="..."/>
+                                <img className="cat_img" src={img5} alt="..." onClick={()=>setState(!status)}/>
                             </div>
+                            {
+                                status? 
                             <div className="cat_content">
                                 <p>Mobile accessory</p>
                                 <p>Electronics</p>
                                 <p>Smartphones </p>
                                 <p>Modern tech</p>
                                 <p className="cat_see">See all</p>
+
                             </div>
+                            :null
+                            }
                     </div>
                     <div className="Brand">
                         <div className="Brand_head">
