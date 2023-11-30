@@ -1,36 +1,52 @@
 import './fig2.css';
+// import './fig21.js';
+import React from 'react';
 import img1 from '../../Component/images/229921_thry6d.png'
 import gridview from '../../Component/images/gridview.jpg'
 import listview from '../../Component/images/listview.jpg'
+import { useState } from 'react';
 function Fig2() {
+    
+    const [status1,setStatus1]=useState(true)
+    const [status2,setStatus2]=useState(true)
+    const [status3,setStatus3]=useState(true)
+    const [status4,setStatus4]=useState(true)
+    const [status5,setStatus5]=useState(true)
+    const [status6,setStatus6]=useState(true)
     return (
         <div class="containe">
             <div className="top">
-                <div className="nav_his">
-                    <p >Home</p>
-                    <i class="bi bi-chevron-right"></i>
-                    <p >Clothings</p>
-                    <i class="bi bi-chevron-right"></i>
-                    <p >Men’s wear</p>
-                    <i class="bi bi-chevron-right"></i>
-                    <p >Summer clothing</p>
-                </div>
+                
+                    
+                        <div className="nav_his">
+                        <p >Home</p>
+                        <i class="bi bi-chevron-right"></i>
+                        <p >Clothings</p>
+                        <i class="bi bi-chevron-right"></i>
+                        <p >Men’s wear</p>
+                        <i class="bi bi-chevron-right"></i>
+                        <p >Summer clothing</p>
+                        </div>
             </div>
             <div class="row">
                 <div class="colu-2">
                     <div className="markname">
                         <h4>
-                            Category
+                            Category <i class="bi bi-x-square" id="close_but"></i>
                         </h4>
-                        <i class="bi bi-chevron-down" id="down"></i>
+                        <i class="bi bi-chevron-down" id="down" onClick={()=>setStatus1(!status1)}></i>
                     </div>
+                    {
+                        status1?
+                        <div>
                     <div className='category_item'>Mobile accessory</div>
                     <div className='category_items'>Electronics</div>
                     <div className='category_items'>Smartphones </div>
                     <div className='category_items'>Modern tech</div>
                     <div className='category_items_see'>See all</div>
-
-
+                    </div>
+                    :null
+                }
 
 
 
@@ -157,111 +173,113 @@ function Fig2() {
                         </div>
                         <div className='ratings_items'>
                             <input type='checkbox'></input>
-                            <div className='txt'>Super power</div>
+                            <div className='txt'>5 Star</div>
                         </div>
                         <div className='ratings_items'>
                             <input type='checkbox'></input>
-                            <div className='txt'>Super power</div>
+                            <div className='txt'>4 Star</div>
                         </div>
                         <div className='ratings_items'>
                             <input type='checkbox'></input>
-                            <div className='txt'>Super power</div>
+                            <div className='txt'>3 Star</div>
                         </div>
                         <div className='ratings_items'>
                             <input type='checkbox'></input>
-                            <div className='txt'>Super power</div>
+                            <div className='txt'>2 Star</div>
                         </div>
                     </div>
                 </div>
                 <div class="colu-10">
                     <div className="item_bar">
+                        
+                        <div className='col2display'>Display</div>
                         <div className="item_avaible">12,911 items in <b>Mobile accessory</b> </div>
                         <input type="checkbox"></input>
                         <div className="verify_check">Verified only</div>
                         <div className="feature">Featured <i class="bi bi-chevron-down"></i></div>
-                        <img src={gridview}></img>
-                        <img src={listview}></img>
+                        <img src={gridview} alt="..."/>
+                        <img src={listview} alt="..."/>
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} />
+                            <img src={img1} alt="..."/>
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
-                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
+                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" alt="..."/> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <span style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={img1} style={{ width: '100%' }} alt="..."/>
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
-                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
+                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" alt="..." /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <span style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={img1} style={{ width: '100%' }} alt="..." />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
-                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
+                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg"  alt="..." /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <span style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={img1} style={{ width: '100%' }} alt="..." />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
-                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
+                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" alt="..." /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <span style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={img1} style={{ width: '100%' }} alt="..." />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
-                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
+                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" alt="..." /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <span style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={img1} style={{ width: '100%' }} alt="..." />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
-                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
+                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" alt="..." /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <span style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={img1} style={{ width: '100%' }}  alt="..."/>
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
-                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
+                            <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg"  alt="..."/> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
                             <span style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
@@ -278,5 +296,6 @@ function Fig2() {
             </div>
         </div>
     );
+    
 }
 export default Fig2;

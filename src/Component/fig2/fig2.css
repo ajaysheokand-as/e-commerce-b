@@ -95,6 +95,7 @@
     padding: 0px 10px 0px 0px;
     text-align: left;
     width: 14%;
+    transition: 5s linear !important;
 }
 
 .row .colu-10 {
@@ -396,10 +397,11 @@ h4 {
     margin-top: 10px;
 }
 
-.img1{
+.img1 {
     width: 200px;
 }
-.img1 img{
+
+.img1 img {
     width: 100%;
 }
 
@@ -488,8 +490,21 @@ h4 {
     border: 1px solid #DEE2E7;
 }
 
+h4 i{
+    position: fixed;
+    margin-top: -30px;
+    margin-left: 100px;
+    display: none;
+    cursor: pointer;
+}
+
 .page_no i {
     font-size: 15px;
+}
+
+.col2display {
+    display: none;
+    cursor: pointer;
 }
 
 #down {
@@ -553,10 +568,12 @@ h4 {
     * {
         font-size: 13px !important;
     }
-    .colu-2{
+
+    .colu-2 {
         width: 18% !important;
     }
-    .colu-10{
+
+    .colu-10 {
         width: 81% !important;
     }
 
@@ -567,26 +584,32 @@ h4 {
     h4 {
         font-size: 16px !important;
     }
-    .img1{
+
+    .img1 {
         width: 180px;
     }
-    .item_bar img{
+
+    .item_bar img {
         width: 35px;
     }
-    .item_bar input{
+
+    .item_bar input {
         width: 14px;
     }
-    .verify_check{
+
+    .verify_check {
         font-size: 13px;
     }
-    .feature{
+
+    .feature {
         font-size: 13px;
     }
+
     .item_bar .feature i {
         width: 14px;
         padding-left: 30px;
     }
-    
+
 }
 
 @media screen and (max-width:986px) {
@@ -606,10 +629,12 @@ h4 {
     * {
         font-size: 12px !important;
     }
-    .colu-2{
+
+    .colu-2 {
         width: 18% !important;
     }
-    .colu-10{
+
+    .colu-10 {
         width: 81% !important;
     }
 
@@ -620,18 +645,23 @@ h4 {
     h4 {
         font-size: 15px !important;
     }
-    .item_bar img{
+
+    .item_bar img {
         width: 30px;
     }
-    .item_bar input{
+
+    .item_bar input {
         width: 13px;
     }
-    .verify_check{
+
+    .verify_check {
         font-size: 12px;
     }
-    .feature{
+
+    .feature {
         font-size: 12px;
     }
+
     .item_bar .feature i {
         width: 13px;
         padding-left: 25px;
@@ -655,10 +685,12 @@ h4 {
     * {
         font-size: 12px !important;
     }
-    .colu-2{
+
+    .colu-2 {
         width: 18% !important;
     }
-    .colu-10{
+
+    .colu-10 {
         width: 81% !important;
     }
 
@@ -669,25 +701,31 @@ h4 {
     h4 {
         font-size: 15px !important;
     }
+
     .item_bar img {
 
         padding: 1px 4px;
         width: 29px;
     }
-    .item_bar input{
+
+    .item_bar input {
         width: 14px;
     }
-    .verify_check{
+
+    .verify_check {
         font-size: 12px;
     }
-    .feature{
+
+    .feature {
         font-size: 12px;
     }
+
     .item_bar .feature i {
         width: 14px;
         padding-left: 19px;
     }
-    .item_specs{
+
+    .item_specs {
         width: 70%;
     }
 }
@@ -710,10 +748,12 @@ h4 {
     * {
         font-size: 11px !important;
     }
-    .colu-2{
+
+    .colu-2 {
         width: 18% !important;
     }
-    .colu-10{
+
+    .colu-10 {
         width: 81% !important;
     }
 
@@ -724,20 +764,25 @@ h4 {
     h4 {
         font-size: 14px !important;
     }
+
     .item_bar img {
 
         padding: 1px 4px;
         width: 27px;
     }
-    .item_bar input{
+
+    .item_bar input {
         width: 13px;
     }
-    .verify_check{
+
+    .verify_check {
         font-size: 11px;
     }
-    .feature{
+
+    .feature {
         font-size: 11px;
     }
+
     .item_bar .feature i {
         width: 13px;
         padding-left: 15px;
@@ -761,10 +806,12 @@ h4 {
     * {
         font-size: 10px !important;
     }
-    .colu-2{
+
+    .colu-2 {
         width: 20% !important;
     }
-    .colu-10{
+
+    .colu-10 {
         width: 79% !important;
     }
 
@@ -775,35 +822,42 @@ h4 {
     h4 {
         font-size: 13px !important;
     }
+
     .item_bar img {
 
         padding: 1px 4px;
         width: 25px;
     }
-    .item_bar input{
+
+    .item_bar input {
         width: 12px;
     }
-    .verify_check{
+
+    .verify_check {
         font-size: 10px;
     }
-    .feature{
+
+    .feature {
         font-size: 10px;
     }
+
     .item_bar .feature i {
         width: 12px;
         padding-left: 10px;
     }
-    .available_item_description{
+
+    .available_item_description {
         line-height: 12px;
     }
-    .item_specs{
+
+    .item_specs {
         width: 70%;
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:425px) {
     .item_bar input {
-        margin-left: 170px;
+        margin-left: 120px;
     }
 
     .containe {
@@ -818,10 +872,12 @@ h4 {
     * {
         font-size: 10px !important;
     }
-    .colu-2{
+
+    .colu-2 {
         width: 20% !important;
     }
-    .colu-10{
+
+    .colu-10 {
         width: 100% !important;
     }
 
@@ -832,32 +888,55 @@ h4 {
     h4 {
         font-size: 13px !important;
     }
+
     .item_bar img {
 
         padding: 1px 4px;
         width: 25px;
     }
-    .item_bar input{
+
+    .item_bar input {
         display: none;
     }
-    .verify_check{
+
+    .verify_check {
         display: none;
     }
+
     .item_bar .feature {
-        
+
         margin-left: 95px;
     }
+
     .item_bar .feature i {
         width: 12px;
         padding-left: 10px;
     }
-    .available_item_description{
+
+    .available_item_description {
         display: none;
     }
-    .item_specs{
+
+    .item_specs {
         width: 70%;
     }
-    .colu-2{
+
+    .colu-2 {
+        width: 27% !important;
+        display: none;
+        position: fixed;
+        background-color: white;
+        transition: linear 1s;
+    }
+
+    .col2display {
+        display: inline;
+    }
+
+    h4 i{
+        display: inline;
+    }
+    .item_avaible{
         display: none;
     }
 }
