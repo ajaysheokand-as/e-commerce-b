@@ -1,0 +1,18 @@
+.content_box {
+    margin: 25px 0px 25px 0px;
+}
+
+.product_main {
+    position: relative;
+}
+
+.source_btn {
+    position: absolute;
+    top: 20%;
+}
+
+.product_text h3,
+p,
+span {
+    margin: 0;
+}

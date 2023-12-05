@@ -1,0 +1,10 @@
+.background {
+    background-image: url(../Images/inquiry.png) !important;
+    background: linear-gradient(95deg, #2C7CF1 7.19%, rgba(0, 209, 255, 0.50) 89.49%) ;
+    height: 446px;
+    background-size: cover;
+}
+.inquiry_form{
+    background-color: white;
+    margin: 50px;
+}
