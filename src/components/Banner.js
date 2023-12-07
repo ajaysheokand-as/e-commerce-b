@@ -4,8 +4,8 @@ import '../components/banner.css'
 import { Databnr } from './Data'
 import banner_img from '../Images/banner_img.png'
 import avtar_img from '../Images/Avatar.png'
-import "@fontsource/inter";
-import "@fontsource/inter/400.css";
+// import "@fontsource/inter";
+// import "@fontsource/inter/400.css";
 
 function Banner() {
     return (
