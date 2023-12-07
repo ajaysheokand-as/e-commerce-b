@@ -21,7 +21,11 @@
 {
     height: 20px;
     width: 20px;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin: 3px 0px 0px 2px;
+=======
+    margin: 15px 0px 0px 2px;
+>>>>>>> Stashed changes:src/components/index.css
 }
 .bottom
 {
@@ -39,6 +43,7 @@
     border-top: 2px solid #DEE2E7;
     width: 90%;
     margin-left: 10px;
+    height: 200px;
     margin-top: 20px;
 }
 .cat_head
@@ -54,7 +59,11 @@
 {
     height: 24px;
     width: 22px;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin-left: 98px;
+=======
+    margin: 10px 0px 0px 98px;
+>>>>>>> Stashed changes:src/components/index.css
 }
 .cat_content
 {
@@ -84,14 +93,18 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin-top: 10px;
+=======
+    line-height: 10px;
+>>>>>>> Stashed changes:src/components/index.css
     color: #1C1C1C;
 }
 .Brand_img
 {
     height: 24px;
     width: 22px;
-    margin-left: 120px;
+    margin: 10px 0px 0px 120px;
 }
 .Brand_content
 {
@@ -152,7 +165,7 @@
 {
     height: 24px;
     width: 22px;
-    margin-left: 100px;
+    margin: 10px 0px 0px 100px;
 }
 .Features_content
 {
@@ -199,7 +212,11 @@
 {
     height: 24px;
     width: 22px;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin: 0px 0px 0px 83px;
+=======
+    margin: 10px 0px 0px 83px;
+>>>>>>> Stashed changes:src/components/index.css
 }
 .Condition
 {
@@ -215,7 +232,10 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin-top: 10px;
+=======
+>>>>>>> Stashed changes:src/components/index.css
     color: #1C1C1C;
 }
 
@@ -223,7 +243,11 @@
 {
     height: 24px;
     width: 22px;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin: 0px 0px 0px 95px;
+=======
+    margin: 10px 0px 0px 95px;
+>>>>>>> Stashed changes:src/components/index.css
 }
 .Ratings
 {
@@ -239,7 +263,10 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin-top: 10px;
+=======
+>>>>>>> Stashed changes:src/components/index.css
     color: #1C1C1C;
 }
 
@@ -247,7 +274,11 @@
 {
     height: 24px;
     width: 22px;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin: 0px 0px 0px 111px;
+=======
+    margin: 10px 0px 0px 111px;
+>>>>>>> Stashed changes:src/components/index.css
 }
 .Manufacturer
 {
@@ -271,7 +302,11 @@
 {
     height: 24px;
     width: 22px;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin: 0px 0px 0px 67px;
+=======
+    margin: 10px 0px 0px 67px;
+>>>>>>> Stashed changes:src/components/index.css
 }
 .bottom_right
 {
@@ -315,7 +350,6 @@
     font-family: sans-serif;
     height: 40px;
     font-size: 16px;
-    margin-left: 4px;
     font-weight: 400;
 }
 .nav_fetures
@@ -335,7 +369,7 @@
     font-size: 16px;
     font-weight: 400;
     font-family: sans-serif;
-    margin: 7px 0px 0px 10px;
+    margin: 10px 0px 0px 10px;
 }
 .Featured_img
 {
@@ -376,7 +410,7 @@
 {
     font-family: sans-serif;
     font-weight: 400;
-    margin: 3px 0px 0px 5px;
+    margin: 6px 0px 0px 5px;
     color: #505050;
 }
 .clear_sams
@@ -538,7 +572,10 @@
     font-weight: 600;
     font-family: sans-serif;
     margin-left: 18px;
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin-top: 15px;
+=======
+>>>>>>> Stashed changes:src/components/index.css
     display: flex;
 }
 .strike_price
@@ -575,13 +612,21 @@
 }
 .like
 {
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin: 0px 0px 0px 95px;
+=======
+    margin: 10px 0px 0px 85px;
+>>>>>>> Stashed changes:src/components/index.css
     height: 40px;
     width: 40px;
 }
 .like_span
 {
+<<<<<<< Updated upstream:src/components/Section1/index.css
     margin: 0px 0px 0px 175px;
+=======
+    margin: 10px 0px 0px 85px;
+>>>>>>> Stashed changes:src/components/index.css
     height: 40px;
     width: 40px;
 }
@@ -601,6 +646,7 @@
     *{
         font-size: 15px;
     }
+<<<<<<< Updated upstream:src/components/Section1/index.css
     .card_img
     {
         width: 150px;
@@ -719,6 +765,8 @@
     *{
         font-size: 14px;
     }
+=======
+>>>>>>> Stashed changes:src/components/index.css
     .card_img
     {
         width: 150px;
@@ -792,6 +840,7 @@
     {
         margin: 10px 0px 0px 280px;
     }
+<<<<<<< Updated upstream:src/components/Section1/index.css
 }
 @media screen and (max-width: 768px)
 {
@@ -866,4 +915,6 @@
     {
         display: none;
     }
+=======
+>>>>>>> Stashed changes:src/components/index.css
 }
