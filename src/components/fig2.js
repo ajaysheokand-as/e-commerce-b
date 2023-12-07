@@ -2,6 +2,13 @@ import './fig2.css';
 import img1 from '../Images/229921_thry6d.png'
 import gridview from '../Images/gridview.jpg'
 import listview from '../Images/listview.jpg'
+import Iphone from '../Images/iphone1.png'
+import iphone1 from '../Images/Iphone2.png'
+import samsung from '../Images/Samsung1.png'
+import tablet from '../Images/tablet.png'
+import camera from '../Images/Camera.png'
+import laptop from '../Images/laptop.png'
+import watch from '../Images/Watch.png'
 function Fig2() {
     return (
         <div class="containe">
@@ -148,7 +155,11 @@ function Fig2() {
 
 
 
-                    <div className="rating">
+                    {/* <div className="rating">
+                        <div className='markname'>
+                            Ratings 
+                            <i class="bi bi-chevron-down" id="down"></i>
+                        </div>
                         <div className="markname">
                             <h4>
                                 Ratings
@@ -171,7 +182,7 @@ function Fig2() {
                             <input type='checkbox'></input>
                             <div className='txt'>Super power</div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div class="colu-10">
                     <div className="item_bar">
@@ -184,7 +195,7 @@ function Fig2() {
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} />
+                            <img src={Iphone} />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
@@ -196,7 +207,7 @@ function Fig2() {
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={iphone1} style={{ width: '100%' }} />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
@@ -208,7 +219,7 @@ function Fig2() {
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={samsung} style={{ width: '100%' }} />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
@@ -220,7 +231,7 @@ function Fig2() {
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={tablet} style={{ width: '100%' }} />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
@@ -232,7 +243,7 @@ function Fig2() {
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={camera} style={{ width: '100%' }} />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
@@ -244,7 +255,7 @@ function Fig2() {
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={laptop} style={{ width: '100%' }} />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
@@ -256,7 +267,7 @@ function Fig2() {
                     </div>
                     <div className="available_items">
                         <div className="img1">
-                            <img src={img1} style={{ width: '100%' }} />
+                            <img src={watch} style={{ width: '100%' }} />
                         </div>
                         <div className="item_specs">
                             <div className="item_name">Canon Cmera EOS 2000, Black 10x zoom</div>
