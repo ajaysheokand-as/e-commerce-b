@@ -202,6 +202,7 @@ function Fig2() {
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
                             <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+
                             <span id="view_detail" style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
@@ -214,6 +215,7 @@ function Fig2() {
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
                             <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+
                             <span id="view_detail" style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
@@ -226,6 +228,7 @@ function Fig2() {
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
                             <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+
                             <span id="view_detail" style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
@@ -238,6 +241,7 @@ function Fig2() {
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
                             <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+
                             <span id="view_detail" style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
@@ -250,6 +254,7 @@ function Fig2() {
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
                             <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+
                             <span id="view_detail" style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
@@ -262,6 +267,7 @@ function Fig2() {
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
                             <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+
                             <span id="view_detail" style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>
@@ -274,6 +280,7 @@ function Fig2() {
                             <div className="item_price">$998.00 <strike>$1128.00</strike></div>
                             <div className="available_item_rating"><img src="https://www.shutterstock.com/image-vector/rating-sticker-icon-five-gold-260nw-1926055046.jpg" /> 9.5 <span style={{ color: "#8B96A5" }}>154 ordes</span> <span style={{ color: "#00B517" }}>Free Shipping</span></div>
                             <div className="available_item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+
                             <span id="view_detail" style={{ color: "#0D6EFD" }}>View details</span>
                         </div>
                     </div>

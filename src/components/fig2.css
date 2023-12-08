@@ -20,7 +20,6 @@
 @media screen and (max-width:1024x) {}
 
 @media screen and (max-width:986px) {}
-
 @media screen and (max-width:820px) {}
 
 @media screen and (max-width:640px) {}
@@ -99,7 +98,7 @@
     padding: 0px 10px 0px 0px;
     text-align: left;
     width: 14%;
-    transition: 5s linear !important;
+    transition: 3s linear !important;
 }
 
 .row .colu-10 {
@@ -320,6 +319,7 @@ h4 {
     margin-top: 20px;
     padding: 14px 0px;
     color: #1C1C1C;
+    display: flex;
     font-size: 18px;
     font-family: sans-serif;
     font-weight: 600;
@@ -334,7 +334,6 @@ h4 {
     display: flex;
     padding: 6px 16px 6px 0px;
 }
-
 
 .item_avaible1{
     display: none;
@@ -508,7 +507,6 @@ h4 i{
     display: none;
     cursor: pointer;
 }
-
 .page_no i {
     font-size: 15px;
 }
@@ -586,7 +584,14 @@ h4 i{
 
     .colu-10 {
         width: 81% !important;
+        font-size: 15px;
     }
+    .colu-2{
+        width: 22%;
+    }
+    .colu-10{
+        width: 76%;
+  }
 
     .img1 {
         width: 200px;
