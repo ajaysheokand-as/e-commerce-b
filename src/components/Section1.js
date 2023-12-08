@@ -180,6 +180,7 @@ function Section1() {
                             <img class="clear_3start" src={img4} alt="clear" />
                         </div>
                         <div className="clear">
+                            
                             Clear all filter
                         </div>
                     </div>
