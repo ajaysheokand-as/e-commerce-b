@@ -2,16 +2,12 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Product from './components/Product';
-import Navbar from './components/Navbar';
-import Banner from './components/Banner';
-// import Fig2 from './components/fig2';
-// import Section1 from './components/Section1';
-// import { Container } from 'react-bootstrap';
-import Inquiry from './components/Inquiry';
-import Reco_item from './components/Reco_item';
-import Extra_service from './components/Extra_service';
+import Navbar from './components/Navbar'
 import Footer from './components/Footer';
+import Home from './components/Home'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Fig2 from './components/Fig2';
+import { Container } from 'react-bootstrap';
 
 function App() {
     const [loading, setloading] = useState(true);
@@ -31,19 +27,12 @@ function App() {
         <div style={{ backgroundColor: '#F7FAFC' }}>
             {!loading && (
                 <>
-                    <Navbar />
-                    <Banner />
-                    <Product />
-                    <Reco_item />
-                    <Extra_service />
-                    <Inquiry />
-                    {/* <Container>
-                        <Fig2 />
-                    </Container>
-                    <Container>
-                        <Section1 />
-                    </Container> */}
-                    <Footer />
+                    <Router>
+                        <Routes>
+                            <Route path='/' element={<Home />} />
+                            <Route path='/contact' element={<div><Navbar/><Container><Fig2 /></Container><Footer/></div>} />
+                        </Routes>
+                    </Router>
                 </>
             )}
         </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../components/navbar.css'
 import nav_logo from '../Images/logo.png'
 import mob_avt from '../Images/avt.png'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [barclickcontent, setbarclickcontent] = useState(false);
@@ -159,19 +160,19 @@ const Navbar = () => {
                                         <li><a href='/'>Partnership</a></li>
                                         <li><a href='/'>Privacy policy</a></li>
                                     </ul>
-
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <hr style={{ marginTop: '0' }} className='nav_hr' />
+                {/* <Router> */}
                 <div className='container-fluid'>
                     <div className='mini_nav_main'>
                         <div className='mini_nav d-flex'>
                             <div className='mini_nav_content'>
                                 <ul className=' mini_list d-flex'>
-                                    <li><a href='/'>All category</a></li>
+                                    <li><Link to='/contact'>All category</Link></li>
                                     <li><a href='/'>Hot offers</a></li>
                                     <li><a href='/'>Gift boxes</a></li>
                                     <li><a href='/'>Projects</a></li>
@@ -188,7 +189,12 @@ const Navbar = () => {
                         </div>
                     </div>
                     <hr style={{ marginTop: '0' }} className='nav_hr' />
+                    {/* <Routes>
+                            <Route path='/' element={<Fig2 />} />
+                            <Route path='/contact' element={<Fig2 />} />
+                        </Routes> */}
                 </div>
+                {/* </Router> */}
             </header>
         </div>
     )

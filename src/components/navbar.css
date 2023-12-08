@@ -17,6 +17,7 @@
     padding: 8px 180px;
     display: flex;
     justify-content: space-between;
+    width: 100% !important;
 }
 
 .mini_list li {
@@ -150,19 +151,23 @@
     .nav_hr {
         display: none;
     }
-    .state_lang{
+
+    .state_lang {
         display: none;
     }
-    .mini_nav{
+
+    .mini_nav {
         justify-content: center;
     }
+
     .mini_list {
         /* padding-left: 0px; */
         margin-top: 10px;
         margin-bottom: 0;
     }
+
     .mini_list li a {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .mobile_nav {
@@ -242,7 +247,7 @@
     }
 
     .click_menu {
-        height: 100vh;
+        height: 82.7vh;
         width: 60%;
         background: white
     }
@@ -262,15 +267,31 @@
         border-right: 1px solid gray;
     }
 }
-
-@media screen and (max-width:430px) {
-    .mini_nav_main{
+@media screen and (max-width:480px) {
+    .mini_nav_main {
         overflow-x: auto;
     }
-    .mini_nav{
+    
+    .mini_nav {
         padding-left: 0;
-        width: 594px;
+        width: 594px !important;
     }
+    .avtar_login {
+        /* width: 70%; */
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .mini_nav_main {
+        overflow-x: auto;
+    }
+
+    .mini_nav {
+        padding-left: 0;
+        width: 594px !important;
+    }
+
     .avtar_login {
         width: 70%;
         height: 140px;
@@ -281,7 +302,7 @@
     }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (min-width:360px) {
     .bar_btn i {
         font-size: 30px;
     }
