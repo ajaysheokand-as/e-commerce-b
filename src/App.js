@@ -8,7 +8,6 @@ import Home from './components/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Fig2 from './components/Fig2';
 import { Container } from 'react-bootstrap';
-
 function App() {
     const [loading, setloading] = useState(true);
 

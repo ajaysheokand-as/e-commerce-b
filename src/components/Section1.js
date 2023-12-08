@@ -11,7 +11,7 @@ import samsung from '../Images/Samsung1.png'
 import tablet from '../Images/tablet.png'
 import camera from '../Images/Camera.png'
 import laptop from '../Images/laptop.png'
-import watch from '../Images/Watch.png'
+import watch from '../Images/Watch.png' 
 import star4 from '../Images/4rating.png'
 import star3 from '../Images/rating.png'
 import heart from '../Images/btn-basic.png'
@@ -307,7 +307,7 @@ function Section1() {
                                         <img className='like' src={heart} alt='...'></img>
                                     </div>
                                     <div className='rating'>
-                                        <img src={star4} alt='...'></img>
+                                        <img src={star4} alt='...' />
                                         <p className='rating_text'>7.5</p>
                                     </div>
                                     <div className='item_name'>
@@ -350,6 +350,39 @@ function Section1() {
                                         GoPro HERO6 4K Action Camera - Black
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='pagination'>
+                        <div className='select_page'>
+                            <form>
+                                <select className='select'>
+                                    <option>Show 1</option>
+                                    <option>Show 2</option>
+                                    <option>Show 3</option>
+                                    <option>Show 4</option>
+                                    <option>Show 5</option>
+                                    <option>Show 6</option>
+                                    <option>Show 7</option>
+                                    <option>Show 8</option>
+                                    <option>Show 9</option>
+                                    <option>Show 10</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div className='next_page'>
+                            <div className="left_page">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                </svg>
+                            </div>
+                            <div className="move_page" style={{backgroundColor: "#EFF2F4"}}>1</div>
+                            <div className="move_page">2</div>
+                            <div className="move_page">3</div>
+                            <div className="right_page">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                </svg>
                             </div>
                         </div>
                     </div>
