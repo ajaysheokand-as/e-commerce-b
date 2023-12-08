@@ -335,6 +335,10 @@ h4 {
     padding: 6px 16px 6px 0px;
 }
 
+
+.item_avaible1{
+    display: none;
+}
 .ratings_items input {
     width: 18px;
     height: 18px;
@@ -801,12 +805,22 @@ h4 i{
 
 @media screen and (max-width:640px) {
     .item_bar input {
-        margin-left: 70px;
+        margin-left: 60px;
     }
 
     .containe {
         width: 95%;
         margin: 0px 20px;
+    }
+    .item_name {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        width: 100% !important;
+        line-height: .1;
+        color: black !important;
+        margin-top: 20px !important;
+        margin-left: 0px !important;
+        margin-bottom: 7px !important;
     }
 
     .pagi {
@@ -867,7 +881,7 @@ h4 i{
 
 @media screen and (max-width:425px) {
     .item_bar input {
-        margin-left: 120px;
+        margin-left: 180px;
     }
 
     .containe {
@@ -915,7 +929,7 @@ h4 i{
 
     .item_bar .feature {
 
-        margin-left: 95px;
+        margin-left: 140px;
     }
 
     .item_bar .feature i {
@@ -948,6 +962,15 @@ h4 i{
     }
     .item_avaible{
         display: none;
+    }
+    .item_avaible1{
+        display: inline;
+    }
+     #view_detail{
+        display: none;
+    }
+    .item_name{
+        font-size: 10px !important; 
     }
 }
 
