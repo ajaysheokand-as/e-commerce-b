@@ -6,7 +6,6 @@ import Kitchen_mixer from '../Images/image88.png'
 import Blenders from '../Images/8.png'
 import Home_appliance from '../Images/rasm.png'
 import Coffee_maker from '../Images/image89.png'
-import watch from '../Images/8_1.png';
 import cameras from '../Images/8_2.png';
 import Headphones from '../Images/8_3.png';
 import Jug from '../Images/8_4.png';
@@ -14,6 +13,10 @@ import Gaming_set from '../Images/8_5.png';
 import Laptops from '../Images/8_6.png';
 import Smartphones from '../Images/8_7.png';
 import Electric from '../Images/8_8.png';
+import watch from '../Images/Watch.png' 
+import star4 from '../Images/4rating.png'
+import star3 from '../Images/rating.png'
+import heart from '../Images/btn-basic.png'
 // import lam from '../Images/8_1.png';
 
 
@@ -174,4 +177,27 @@ export const Databnr = [
         txt: 'More category'
     }
 ]
-
+export const gridveiw_data = [
+    {
+        name : "GoPro HERO6 4K Action Camera - Black",
+        price : "$99.50",
+        sec_price : "$1128.00",
+        heart1 : heart,
+        star4 :star4
+    },
+    {
+        name : "GoPro HERO6 4K Action Camera - Black",
+        price : "$99.50",
+        sec_price : "$1128.00",
+        img1 : star3,
+        img2 :heart
+    }
+    ,
+    {
+        name : "GoPro HERO6 4K Action Camera - Black",
+        price : "$99.50",
+        sec_price : "$1128.00",
+        img1:heart,
+        img2:star4
+    }
+]
