@@ -214,15 +214,13 @@
         padding: 18px 25px 10px 25px;
     }
 
-    /* .barclickcontent{
-        display: block;
-    } */
     #barclick {
         position: absolute;
         top: 0;
-        display: none;
+        left: 0;
+        /* display: none; */
         z-index: 1;
-        background-color: white;
+        /* background-color: white; */
         height: 100vh;
         width: 100%;
         background: #636363;
@@ -247,7 +245,7 @@
     }
 
     .click_menu {
-        height: 82.7vh;
+        height: 100vh;
         width: 60%;
         background: white
     }
@@ -267,15 +265,17 @@
         border-right: 1px solid gray;
     }
 }
+
 @media screen and (max-width:480px) {
     .mini_nav_main {
         overflow-x: auto;
     }
-    
+
     .mini_nav {
         padding-left: 0;
         width: 594px !important;
     }
+
     .avtar_login {
         /* width: 70%; */
         height: 150px;

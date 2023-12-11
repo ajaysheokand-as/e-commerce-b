@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+// import React, { useEffect } from 'react'
 import '../components/product.css'
 import { Col, Row } from 'react-bootstrap'
 import consumer from '../Images/image98.png';
@@ -23,15 +23,17 @@ const Product = () => {
                         {Datastr.map((data) => {
                             return (
                                 <Col lg={3} md={3} sm={5} key={data} className='d-flex col_box'>
-                                    <div className='product_text'>
-                                        <h3>{data.heading}</h3>
-                                        <p>
-                                            {data.per}
-                                        </p>
-                                        <span>{data.span}</span>
-                                    </div>
-                                    <div className='product_img'>
-                                        <img src={data.img} alt='sofa' data-aos="flip-left" />
+                                    <div className='d-flex flex_border'>
+                                        <div className='product_text'>
+                                            <h3>{data.heading}</h3>
+                                            <p>
+                                                {data.per}
+                                            </p>
+                                            <span>{data.span}</span>
+                                        </div>
+                                        <div className='product_img'>
+                                            <img src={data.img} alt='sofa' data-aos="flip-left" />
+                                        </div>
                                     </div>
                                 </Col>
                             )
@@ -51,15 +53,17 @@ const Product = () => {
                         {Datastr2.map((data2) => {
                             return (
                                 <Col lg={3} md={3} sm={5} key={data2} className='d-flex col_box'>
-                                    <div className='product_text'>
-                                        <h3>{data2.heading}</h3>
-                                        <p>
-                                            {data2.per}
-                                        </p>
-                                        <span>{data2.span}</span>
-                                    </div>
-                                    <div className='product_img'>
-                                        <img src={data2.img} alt='sofa' data-aos="flip-left" />
+                                    <div className='d-flex flex_border'>
+                                        <div className='product_text'>
+                                            <h3>{data2.heading}</h3>
+                                            <p>
+                                                {data2.per}
+                                            </p>
+                                            <span>{data2.span}</span>
+                                        </div>
+                                        <div className='product_img'>
+                                            <img src={data2.img} alt='sofa' data-aos="flip-left" />
+                                        </div>
                                     </div>
                                 </Col>
                             )

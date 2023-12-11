@@ -12,6 +12,9 @@
     height: 346px;
     border-radius: 8px;
 }
+.mob_inq_btn{
+    display: none;
+}
 
 form {
     padding: 20px;
@@ -64,6 +67,9 @@ form h6 {
     .inquiry_form,
     .background .text_box p {
         display: none;
+    }
+    .mob_inq_btn{
+        display: block;
     }
 
     .background .text_box {

@@ -23,6 +23,7 @@ function Reco_item() {
                                                 <div className='text_box'>
                                                     <span>{data.span}</span>
                                                     <h5>{data.heading}</h5>
+                                                    <button className='btn btn-success reco_item_btn'>Buy now</button>
                                                 </div>
                                             </div>
                                         </div>
