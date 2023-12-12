@@ -1,0 +1,105 @@
+.section_9 {
+    /* position: relative; */
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background: linear-gradient(75deg, #249c54 0%, #0f666b 53%, #024579 100%);
+    background-size: contain;
+    text-align: center;
+}
+
+.section_9 h2 {
+    font-family: "GothamBold";
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.section_9 h3 {
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.form_banner {
+    margin-top: 4%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe_form {
+    width: 40%;
+}
+
+.sub_input_group {
+    background: #ffffff;
+    display: flex;
+    padding: 1.90% 1.50% 1.90% 4.50%;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.sub_input_group img {
+    width: 35px;
+}
+
+.form_box {
+    border: none;
+    font-size: 18px;
+    width: 69%;
+    padding-left: 2%;
+    outline: none;
+}
+
+.btn-3 {
+    background-color: #F2994A;
+    font-family: GothamLight;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 17px;
+    border: none;
+    padding: 15px 36px;
+    opacity: .65;
+}
+
+@media screen and (max-width:1280px) {
+    .subscribe_form {
+        width: 60%;
+    }
+
+    .sub_input_group {
+        padding: 7px 10px 7px 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .btn-3 {
+        padding: 8px 35px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .btn-3 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .subscribe_form {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .subscribe_form{
+        width: 100%;
+    }
+    .btn-3 {
+        padding: 8px 20px;
+    }
+}

@@ -177,7 +177,7 @@ function Section1() {
                         </div>
                         <div id="3star" className="star3">
                             <p className="tag_text">3 star</p>
-                            <img class="clear_3start" src={img4} alt="clear" />
+                            <img className="clear_3start" src={img4} alt="clear" />
                         </div>
                         <div className="clear">
                             Clear all filter
@@ -185,7 +185,7 @@ function Section1() {
                     </div>
                     <div className='cards'>
                         <div style={{ display: "flex" }}>
-                            <div class='card1'>
+                            <div className='card1'>
                                 <div>
                                     <div className='card_img'>
                                         <img src={Iphone} alt='...'></img>
@@ -203,7 +203,7 @@ function Section1() {
                                     </div>
                                 </div>
                             </div>
-                            <div class='card2'>
+                            <div className='card2'>
                                 <div>
                                     <div className='card_img'>
                                         <img src={iphone1} alt='...'></img>
@@ -221,7 +221,7 @@ function Section1() {
                                     </div>
                                 </div>
                             </div>
-                            <div class='card3'>
+                            <div className='card3'>
                                 <div>
                                     <div className='card_img'>
                                         <img src={samsung} alt='...'></img>
@@ -241,7 +241,7 @@ function Section1() {
                             </div>
                         </div>
                         <div style={{ display: "flex" }}>
-                            <div class='card1'>
+                            <div className='card1'>
                                 <div>
                                     <div className='card_img'>
                                         <img src={tablet} alt='...'></img>
@@ -259,7 +259,7 @@ function Section1() {
                                     </div>
                                 </div>
                             </div>
-                            <div class='card2'>
+                            <div className='card2'>
                                 <div>
                                     <div className='card_img'>
                                         <img src={camera} alt='...'></img>
@@ -277,7 +277,7 @@ function Section1() {
                                     </div>
                                 </div>
                             </div>
-                            <div class='card3'>
+                            <div className='card3'>
                                 <div>
                                     <div className='card_img'>
                                         <img src={iphone1} alt='...'></img>
@@ -297,7 +297,7 @@ function Section1() {
                             </div>
                         </div>
                         <div style={{ display: "flex" }}>
-                            <div class='card1'>
+                            <div className='card1'>
                                 <div>
                                     <div className='card_img'>
                                         <img src={laptop} alt='...'></img>
@@ -315,7 +315,7 @@ function Section1() {
                                     </div>
                                 </div>
                             </div>
-                            <div class='card2'>
+                            <div className='card2'>
                                 <div>
                                     <div className='card_img'>
                                         <img src={watch} alt='...'></img>
@@ -333,7 +333,7 @@ function Section1() {
                                     </div>
                                 </div>
                             </div>
-                            <div class='card3'>
+                            <div className='card3'>
                                 <div>
                                     <div className='card_img'>
                                         <img src={Iphone} alt='...'></img>
