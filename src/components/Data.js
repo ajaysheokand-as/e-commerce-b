@@ -13,12 +13,19 @@ import Gaming_set from '../Images/8_5.png';
 import Laptops from '../Images/8_6.png';
 import Smartphones from '../Images/8_7.png';
 import Electric from '../Images/8_8.png';
-import watch from '../Images/Watch.png' 
-import star4 from '../Images/4rating.png'
-import star3 from '../Images/rating.png'
-import heart from '../Images/btn-basic.png'
-// import lam from '../Images/8_1.png';
-
+import shirt from '../Images/shirt.png'
+import jacket from '../Images/jacket.png'
+import kot from '../Images/kot.png'
+import bag from '../Images/bag.png'
+import wallet from '../Images/wallet.png'
+import pent from '../Images/pent.png'
+import headphone from '../Images/headphone.png'
+import moneybank from '../Images/moneybank.png'
+import coffejuj from '../Images/coffejuj.png'
+import sourc from '../Images/source.png'
+import coustmi from '../Images/customi.png'
+import flight from '../Images/flight.png'
+import product from '../Images/product.png'
 
 export const Datastr = [
     {
@@ -78,7 +85,6 @@ export const Datastr = [
         img: Coffee_maker
     }
 ]
-
 
 export const Datastr2 = [
     {
@@ -199,5 +205,111 @@ export const gridveiw_data = [
         sec_price : "$1128.00",
         img1:heart,
         img2:star4
+    }
+export const Data_rec = [
+    {
+        id: 1,
+        img: shirt,
+        span: '$10.30',
+        heading: 'T-shirts with multiple colors, for men'
+    },
+    {
+        id: 2,
+        img: jacket,
+        span: '$1.30',
+        heading: 'T-shirts with multiple colors, for men'
+    },
+    {
+        id: 3,
+        img: kot,
+        span: '$0.30',
+        heading: 'T-shirts with multiple colors, for men'
+    },
+    {
+        id: 4,
+        img: wallet,
+        span: '$10.30',
+        heading: 'Leather wallet'
+    },
+    {
+        id: 5,
+        img: bag,
+        span: '$10.30',
+        heading: 'Jeans bag for travel for men'
+    },
+    {
+        id: 6,
+        img: pent,
+        span: '$10.30',
+        heading: 'Jeans shorts for men blue color'
+    },
+    {
+        id: 7,
+        img: headphone,
+        span: '$8.30',
+        heading: 'Headset for gamingwith mic'
+    },
+    {
+        id: 8,
+        img: bag,
+        span: '$10.30',
+        heading: 'Jeans bag for travel for men'
+    },
+    {
+        id: 9,
+        img: moneybank,
+        span: '$10.30',
+        heading: 'Blue wallet for men leather metarfial'
+    },
+    {
+        id: 10,
+        img: coffejuj,
+        span: '$80.95',
+        heading: 'Jeans bag for travel for men'
+    }
+]
+
+export const Data_ser = [
+    {
+        id: 1,
+        img: sourc,
+        heading: 'Source from Industry Hubs'
+    },
+    {
+        id: 2,
+        img: coustmi,
+        heading: 'Customize Your Products'
+    },
+    {
+        id: 3,
+        img: flight,
+        heading: 'Fast, reliable shipping by ocean or air'
+    },
+    {
+        id: 4,
+        img: product,
+        heading: 'Product monitoring and inspection'
+    }
+
+]
+
+
+// footer_data
+export const Data_footer = [
+    {
+        id: 1,
+        lis: 'About Us'
+    },
+    {
+        id: 2,
+        lis: 'Find Store'
+    },
+    {
+        id: 3,
+        lis: 'Categories'
+    },
+    {
+        id: 4,
+        lis: 'Blogs'
     }
 ]

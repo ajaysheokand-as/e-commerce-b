@@ -175,7 +175,7 @@ function Section1() {
                         </div>
                         <div id="3star" className="star3">
                             <p className="tag_text">3 star</p>
-                            <img class="clear_3start" src={img4} alt="clear" />
+                            <img className="clear_3start" src={img4} alt="clear" />
                         </div>
                         <div className="clear">
                             
@@ -227,6 +227,36 @@ function Section1() {
                                                 <p>{product.price}</p>
                                             <img className='like_span' src={heart} alt='...'></img>
                                         </div>
+                            </div>
+                            <div className='card3'>
+                                <div>
+                                    <div className='card_img'>
+                                        <img src={iphone1} alt='...'></img>
+                                    </div>
+                                    <div className='card_price'>
+                                        <p>$99.50</p>
+                                        <img className='like_span' src={heart} alt='...'></img>
+                                    </div>
+                                    <div className='rating'>
+                                        <img src={star4} alt='...'></img>
+                                        <p className='rating_text'>7.5</p>
+                                    </div>
+                                    <div className='item_name'>
+                                        GoPro HERO6 4K Action Camera - Black
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{ display: "flex" }}>
+                            <div className='card1'>
+                                <div>
+                                    <div className='card_img'>
+                                        <img src={laptop} alt='...'></img>
+                                    </div>
+                                    <div className='card_price'>
+                                        <p>$99.50<span className='strike_price'><strike>$1128.00</strike></span></p>
+                                        <img className='like' src={heart} alt='...'></img>
+                                    </div>
                                     <div className='rating'>
                                             <img src={star4} alt='...'></img>
                                             <p className='rating_text'>7.5</p>
