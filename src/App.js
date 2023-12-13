@@ -18,6 +18,7 @@ function App() {
             setTimeout(() => {
                 spiner.style.display = 'none';
                 setloading(false);
+                
                 // document.body.style.backgroundColor = 'black';
             }, 2000);
         }
