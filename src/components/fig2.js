@@ -187,11 +187,13 @@ function Fig2() {
                 <div class="colu-10">
                     <div className="item_bar">
                         <div className="item_avaible">12,911 items in <b>Mobile accessory</b> </div><div className="item_avaible1">12,911 items <b>available</b> </div>
-                        <input type="checkbox"></input>
-                        <div className="verify_check">Verified only</div>
-                        <div className="feature">Featured <i class="bi bi-chevron-down"></i></div>
-                        <img src={gridview}></img>
-                        <img src={listview}></img>
+                        <div className='item_bar_left'>
+                            <input type="checkbox"></input>
+                            <div className="verify_check">Verified only</div>
+                            <div className="feature">Featured <i class="bi bi-chevron-down"></i></div>
+                            <img src={gridview}></img>
+                            <img src={listview}></img>
+                        </div>
                     </div>
                     <div className="available_items">
                         <div className="img1">
