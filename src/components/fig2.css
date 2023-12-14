@@ -6,25 +6,6 @@
     font-family: sans-serif;
 }
 
-@media screen and (max-width:1386px) {
-    .item_bar input {
-        width: 16px;
-        margin-left: 300px;
-    }
-}
-
-@media screen and (max-width:1440px) {}
-
-@media screen and (max-width:1280px) {}
-
-@media screen and (max-width:1024x) {}
-
-@media screen and (max-width:986px) {}
-@media screen and (max-width:820px) {}
-
-@media screen and (max-width:640px) {}
-
-@media screen and (max-width:430px) {}
 
 .App-logo {
     height: 40vmin;
@@ -358,6 +339,11 @@ h4 {
     border: 1px #DEE2E7 solid;
     display: flex;
     margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.item_bar_left{
+    display: flex;
 }
 
 .item_avaible {
@@ -367,7 +353,6 @@ h4 {
 
 .item_bar input {
     width: 16px;
-    margin-left: 620px;
 }
 
 .item_bar .verify_check {
@@ -476,15 +461,15 @@ h4 {
 }
 
 .pagi {
-    margin-left: 82%;
-    height: 35px;
+    justify-content: right;
+    height: auto;
     display: flex;
     text-align: left;
 }
 
 .page_numbers {
     padding: 5px 10px 3px;
-    width: fit-content;
+    width: auto;
     border-radius: 5px;
     border: 1px solid #DEE2E7;
     margin-right: 5px;
@@ -496,7 +481,6 @@ h4 {
 
 .page_no {
     padding: 6px 10px;
-
     border: 1px solid #DEE2E7;
 }
 
@@ -527,51 +511,27 @@ h4 i{
 }
 
 @media screen and (max-width:1387px) {
-    .item_bar input {
-
-        margin-left: 440px;
-    }
 
     .containe {
         width: 88%;
         margin: 0px 50px;
     }
 
-    .pagi {
-        margin-left: 76%;
-    }
 }
 
-@media screen and (max-width:1440px) {}
 
 @media screen and (max-width:1280px) {
-    .item_bar input {
-
-        margin-left: 350px;
-    }
 
     .containe {
         width: 88%;
         margin: 0px 50px;
-    }
-
-    .pagi {
-        margin-left: 72%;
     }
 }
 
 @media screen and (max-width:1024px) {
-    .item_bar input {
-        margin-left: 250px;
-    }
-
     .containe {
         width: 94%;
         margin: 0px 40px;
-    }
-
-    .pagi {
-        margin-left: 70%;
     }
 
     * {
@@ -632,17 +592,14 @@ h4 i{
 }
 
 @media screen and (max-width:986px) {
-    .item_bar input {
-        margin-left: 275px;
-    }
 
     .containe {
         width: 95%;
         margin: 0px 30px;
     }
 
-    .pagi {
-        margin-left: 70%;
+    .item_name{
+        font-size: 15px !important;
     }
 
     * {
@@ -688,19 +645,11 @@ h4 i{
 }
 
 @media screen and (max-width:820px) {
-    .item_bar input {
-        margin-left: 150px;
-    }
 
     .containe {
         width: 94%;
         margin: 0px 35px;
     }
-
-    .pagi {
-        margin-left: 70%;
-    }
-
     * {
         font-size: 12px !important;
     }
@@ -751,18 +700,11 @@ h4 i{
 
 
 @media screen and (max-width:768px) {
-    .item_bar input {
-        margin-left: 150px;
-    }
-
     .containe {
         width: 95%;
         margin: 0px 25px;
     }
 
-    .pagi {
-        margin-left: 65%;
-    }
 
     * {
         font-size: 11px !important;
@@ -806,12 +748,13 @@ h4 i{
         width: 13px;
         padding-left: 15px;
     }
+
+    .item_name{
+        font-size: 13px !important;
+    }
 }
 
 @media screen and (max-width:640px) {
-    .item_bar input {
-        margin-left: 60px;
-    }
 
     .containe {
         width: 95%;
@@ -826,10 +769,6 @@ h4 i{
         margin-top: 20px !important;
         margin-left: 0px !important;
         margin-bottom: 7px !important;
-    }
-
-    .pagi {
-        margin-left: 60%;
     }
 
     * {
@@ -885,19 +824,11 @@ h4 i{
 }
 
 @media screen and (max-width:425px) {
-    .item_bar input {
-        margin-left: 180px;
-    }
 
     .containe {
         width: 95%;
         margin: 0px 20px;
     }
-
-    .pagi {
-        margin-left: 60%;
-    }
-
     * {
         font-size: 10px !important;
     }
@@ -932,10 +863,6 @@ h4 i{
         display: none;
     }
 
-    .item_bar .feature {
-
-        margin-left: 140px;
-    }
 
     .item_bar .feature i {
         width: 12px;
@@ -976,6 +903,13 @@ h4 i{
     }
     .item_name{
         font-size: 10px !important; 
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .item_name{
+        font-size: 8px !important;
     }
 }
 
