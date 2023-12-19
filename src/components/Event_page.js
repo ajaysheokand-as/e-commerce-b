@@ -1,8 +1,8 @@
-import './fig2.css';
+import './event_page.css';
 import img1 from '../Images/229921_thry6d.png'
 import gridview from '../Images/gridview.jpg'
 import listview from '../Images/listview.jpg'
-function Fig2() {
+function Event_page() {
     return (
         <div class="containe">
             <div className="top">
@@ -279,4 +279,4 @@ function Fig2() {
         </div>
     );
 }
-export default Fig2;
+export default Event_page;

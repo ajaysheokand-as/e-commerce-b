@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer';
 import Home from './components/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Fig2 from './components/Fig2';
+import Event_page from './components/Event_page';
 import { Container } from 'react-bootstrap';
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
                     <Router>
                         <Routes>
                             <Route path='/' element={<Home />} />
-                            <Route path='/contact' element={<div><Navbar/><Container><Fig2 /></Container><Footer/></div>} />
+                            <Route path='/contact' element={<div><Navbar/><Container><Event_page /></Container><Footer/></div>} />
                         </Routes>
                     </Router>
                 </>
