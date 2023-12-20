@@ -7,13 +7,13 @@
 .top
 {
     height: 50px;
-    margin-left: 85px;
 }
 .nav_his
 {
     color: #8B96A5;
     font-family: sans-serif;
     margin: 5px 0px 0px 15px;
+
     font-size: 16px;
     display: flex;
 }
@@ -27,7 +27,6 @@
 {
     display: flex;
     height: 1445px;
-    margin-left: 85px;
 }
 .bottom_left
 {
@@ -54,7 +53,7 @@
 {
     height: 24px;
     width: 22px;
-    margin-left:98px;
+    margin-left: 85px;
 }
 .cat_content
 {
@@ -85,7 +84,7 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 10px;
     color: #1C1C1C;
 }
@@ -93,7 +92,8 @@
 {
     height: 24px;
     width: 22px;
-    margin-left: 120px;
+    margin-top: -7px;
+    margin-left: 105px;
 }
 .Brand_content
 {
@@ -120,14 +120,17 @@
 }
 .chec_div
 {
-    display: flex; height: 50;
+    display: flex;
+    height: 25px;
+    line-height: 0px;
+    margin-top: 4px;
 }
 .checkbox
 {
     height: 15px;
     width: 15px;
     margin-left: -2px;
-    margin-top: 10px;
+    margin-top: -10px;
 }
 .checkbox:hover
 {
@@ -154,7 +157,7 @@
 {
     height: 24px;
     width: 22px;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 .Features_content
 {
@@ -201,7 +204,7 @@
 {
     height: 24px;
     width: 22px;
-    margin-left: 83px;
+    margin-left: 68px;
 }
 .Condition
 {
@@ -225,7 +228,7 @@
 {
     height: 24px;
     width: 22px;
-    margin-left: 95px;
+    margin-left: 80px;
 }
 .Ratings
 {
@@ -249,7 +252,7 @@
 {
     height: 24px;
     width: 22px;
-    margin-left: 111px;
+    margin-left: 96px;
 }
 .Manufacturer
 {
@@ -265,6 +268,7 @@
     font-size: 16px;
     font-family: sans-serif;
     font-weight: 600;
+    margin-top: 10px;
     color: #1C1C1C;
 }
 
@@ -272,7 +276,7 @@
 {
     height: 24px;
     width: 22px;
-    margin-left:67px;
+    margin-left: 54px;
 }
 .bottom_right
 {
@@ -302,11 +306,11 @@
 .verfie
 {
     display: flex;
-    margin: 10px 0px 0px 400px;
+    margin: -3px 0px 0px 370px;
     color: #1C1C1C;
     font-family: sans-serif;
     height: 40px;
-    width: 110px;
+    width: 160px;
     font-size: 16px;
     font-weight: 400;
 }
@@ -565,7 +569,7 @@
     font-weight: 400;
     font-family: sans-serif;
 }
-.item_name
+.itemname
 {
     font-size: 16px;
     font-weight: 400;
@@ -593,12 +597,13 @@
 }
 .select_page
 {
+    margin-top: -18px;
     margin-left: 5px;
 }
 .select 
 {
     margin-top: 3px;
-    padding: 3px 5px 5px 1px;
+    padding: 6px 11px 8px 8px;
     border-radius: 6px;
     border: 1px solid #DEE2E7;
     outline: none;
@@ -635,17 +640,6 @@
     border-right: 1px solid #DEE2E7;
 }
 @media screen and (max-width: 1386px)
-{
-    .top
-    {
-        margin-left: 25px;
-    }
-    .bottom
-    {
-        margin-left: 25px;
-    }
-}
-@media screen and (max-width: 1280px)
 {
     *{
         font-size: 14px;
@@ -737,9 +731,14 @@
     {
         margin-left: 57px;
     }
+    .Features_content
+    {
+        width: 110px;
+        margin: -2px 0px 7px 10px;
+    }
     .nav
     {
-        width: 1000px;
+        width: 1050px;
     }
     .nav_text
     {
@@ -748,7 +747,7 @@
     }
     .verfie
     {
-        margin: 10px 0px 0px 280px;
+        margin: 0px 0px 0px 230px;
     }
 }
 @media screen and (max-width: 1024px)
@@ -843,14 +842,16 @@
     }
     .verfie
     {
-        margin: 10px 0px 0px 90px;
+        margin: 0px 0px 0px 40px;
+    }
+    .pagination
+    {
+        margin-left: 500px;
     }
 }
 @media screen and (max-width: 820px)
 {
-    *{
-        font-size: 14px;
-    }
+    
     .main
     {
         height: 1300px;
@@ -896,25 +897,30 @@
     .card1
     {
         margin-left: 40px;
-        height: 300px;
+        height: 280px;
         width: 200px;
     }
     .card2
     {
         margin-left: 30px;
         width: 200px;
-        height: 300px;
+        height: 280px;
     }
     .card3
     {
         margin-left: 30px;
         width: 200px;
-        height: 300px;  
+        height: 280px;  
+    }
+    .itemname
+    {
+        width: 170px;
     }
     .tags
     {
         margin-left: 10px;
-        width: 750px
+        width: 750px;
+        height: 30px;
     }
     .Samsung
     {
@@ -925,6 +931,19 @@
     {
         width: 750px;
     }
+    .next_page
+    {
+        height: 28px;
+    }
+    .nav_fetures
+    {
+        height: 30px;
+        margin-top: 15px;
+    }
+    .Featured_img
+    {
+        margin: 3px 0px 0px 90px;
+    }
     .nav_text
     {
         margin: 20px 0px 0px 15px;
@@ -932,13 +951,16 @@
     }
     .verfie
     {
-        margin: 10px 0px 0px 20px;
+        margin: 0px 0px 0px -20px;
     }
     .bottom_left
     {
         display: none;
     }
-    
+    .pagination
+    {
+        margin-left:360px;
+    }
 }
 @media screen and (max-width: 768px)
 {
@@ -977,7 +999,7 @@
     }
     .like_span
     {
-        margin-left: 95px;
+        margin-left: 85px;
         height: 35px;
         width: 35px;
     }
@@ -990,24 +1012,33 @@
     .card1
     {
         margin-left: 20px;
-        height: 300px;
+        height: 280px;
         width: 200px;
     }
     .card2
     {
         margin-left: 30px;
         width: 200px;
-        height: 300px;
+        height: 280px;
     }
     .card3
     {
         margin-left: 30px;
         width: 200px;
-        height: 300px;  
+        height: 280px;  
+    }
+    .itemname
+    {
+        width: 160px;
+    }
+    .next_page
+    {
+        height: 28px;
     }
     .tags
     {
         margin-left: -15px;
+        height: 27px;
         width: 750px
     }
     .Samsung
@@ -1027,10 +1058,23 @@
     }
     .verfie
     {
-        margin: 10px 0px 0px 20px;
+        margin: 4px;
+    }
+    .nav_fetures
+    {
+        margin-left: -30px;
     }
     .bottom_left
     {
+        display: none;
+    }
+    .pagination
+    {
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width: 426px){
+    .main{
         display: none;
     }
 }

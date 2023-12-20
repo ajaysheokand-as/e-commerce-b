@@ -6,7 +6,6 @@ import Kitchen_mixer from '../Images/image88.png'
 import Blenders from '../Images/8.png'
 import Home_appliance from '../Images/rasm.png'
 import Coffee_maker from '../Images/image89.png'
-import watch from '../Images/8_1.png';
 import cameras from '../Images/8_2.png';
 import Headphones from '../Images/8_3.png';
 import Jug from '../Images/8_4.png';
@@ -14,7 +13,6 @@ import Gaming_set from '../Images/8_5.png';
 import Laptops from '../Images/8_6.png';
 import Smartphones from '../Images/8_7.png';
 import Electric from '../Images/8_8.png';
-
 import shirt from '../Images/shirt.png'
 import jacket from '../Images/jacket.png'
 import kot from '../Images/kot.png'
@@ -23,8 +21,8 @@ import wallet from '../Images/wallet.png'
 import pent from '../Images/pent.png'
 import headphone from '../Images/headphone.png'
 import moneybank from '../Images/moneybank.png'
+import watch from '../Images/Watch.png'
 import coffejuj from '../Images/coffejuj.png'
-
 import sourc from '../Images/source.png'
 import coustmi from '../Images/customi.png'
 import flight from '../Images/flight.png'
@@ -186,7 +184,24 @@ export const Databnr = [
         txt: 'More category'
     }
 ]
-
+export const gridveiw_data = [
+    {
+        name : "GoPro HERO6 4K Action Camera - Black",
+        price : "$99.50",
+        sec_price : "$1128.00",
+    },
+    {
+        name : "GoPro HERO6 4K Action Camera - Black",
+        price : "$99.50",
+        sec_price : "$1128.00"
+    }
+    ,
+    {
+        name : "GoPro HERO6 4K Action Camera - Black",
+        price : "$99.50",
+        sec_price : "$1128.00"
+    }
+]
 export const Data_rec = [
     {
         id: 1,
@@ -294,4 +309,3 @@ export const Data_footer = [
         lis: 'Blogs'
     }
 ]
-

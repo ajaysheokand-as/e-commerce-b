@@ -8,15 +8,13 @@ import img6 from '../Images/expand_more.png'
 import Iphone from '../Images/iphone1.png'
 import iphone1 from '../Images/Iphone2.png'
 import samsung from '../Images/Samsung1.png'
-import tablet from '../Images/tablet.png'
-import camera from '../Images/Camera.png'
-import laptop from '../Images/laptop.png'
-import watch from '../Images/Watch.png' 
 import star4 from '../Images/4rating.png'
 import star3 from '../Images/rating.png'
 import heart from '../Images/btn-basic.png'
+import { gridveiw_data } from './Data'
 function Section1() {
-    return (
+    console.log("data=>" ,gridveiw_data);
+    return ( 
         <div className="main">
             <div className="top">
                 <div className="nav_his">
@@ -177,181 +175,69 @@ function Section1() {
                         </div>
                         <div id="3star" className="star3">
                             <p className="tag_text">3 star</p>
-                            <img className="clear_3start" src={img4} alt="clear" />
+                            <img class="clear_3start" src={img4} alt="clear" />
                         </div>
                         <div className="clear">
+                            
                             Clear all filter
                         </div>
                     </div>
                     <div className='cards'>
-                        <div style={{ display: "flex" }}>
-                            <div className='card1'>
-                                <div>
-                                    <div className='card_img'>
-                                        <img src={Iphone} alt='...'></img>
-                                    </div>
-                                    <div className='card_price'>
-                                        <p>$99.50<span className='strike_price'><strike>$1128.00</strike></span></p>
+                        {   gridveiw_data.map((product , index)=>{
+                                return(
+                                    <div style={{ display: "flex" }}>
+                                <div class='card1'>
+                                    <div>
+                                            <div className='card_img'>
+                                            <img src={Iphone} alt='...'></img>
+                                        </div>
+                                        <div className='card_price'>
+                                            <p>{product.price}<span className='strike_price'><strike>{product.sec_price}</strike></span></p>
                                         <img className='like' src={heart} alt='...'></img>
-                                    </div>
+                                        </div>
                                     <div className='rating'>
-                                        <img src={star4} alt='...'></img>
-                                        <p className='rating_text'>7.5</p>
+                                            <img src={star4} alt='...'></img>
+                                            <p className='rating_text'>7.5</p>
+                                            </div>
+                                        <div className='itemname'>{product.name}</div>
                                     </div>
-                                    <div className='item_name'>
-                                        GoPro HERO6 4K Action Camera - Black
+                                </div>
+                                <div class='card2'>
+                                    <div>
+                                        <div className='card_img'>
+                                            <img src={iphone1} alt='...'></img>
+                                        </div>
+                                        <div className='card_price'>
+                                        <p>{product.price}<span className='strike_price'><strike>{product.sec_price}</strike></span></p>
+                                            <img className='like' src={heart} alt='...'></img>
+                                        </div>
+                                        <div className='rating'>
+                                            <img src={star3} alt='...'></img>
+                                            <p className='rating_text'>5.9</p>
+                                        </div>
+                                        <div className='itemname'>{product.name}</div>
+                                    </div>
+                                </div>
+                                <div class='card3'>
+                                    <div>
+                                        <div className='card_img'>
+                                            <img src={samsung} alt='...'></img>
+                                        </div>
+                                        <div className='card_price'>
+                                                <p>{product.price}</p>
+                                            <img className='like_span' src={heart} alt='...'></img>
+                                        </div>
+                                    <div className='rating'>
+                                            <img src={star4} alt='...'></img>
+                                            <p className='rating_text'>7.5</p>
+                                        </div>
+                                        <div className='itemname'>{product.name}</div>
                                     </div>
                                 </div>
                             </div>
-                            <div className='card2'>
-                                <div>
-                                    <div className='card_img'>
-                                        <img src={iphone1} alt='...'></img>
-                                    </div>
-                                    <div className='card_price'>
-                                        <p>$99.50<span className='strike_price'><strike>$1128.00</strike></span></p>
-                                        <img className='like' src={heart} alt='...'></img>
-                                    </div>
-                                    <div className='rating'>
-                                        <img src={star3} alt='...'></img>
-                                        <p className='rating_text'>5.9</p>
-                                    </div>
-                                    <div className='item_name'>
-                                        GoPro HERO6 4K Action Camera - Black
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='card3'>
-                                <div>
-                                    <div className='card_img'>
-                                        <img src={samsung} alt='...'></img>
-                                    </div>
-                                    <div className='card_price'>
-                                        <p>$99.50</p>
-                                        <img className='like_span' src={heart} alt='...'></img>
-                                    </div>
-                                    <div className='rating'>
-                                        <img src={star4} alt='...'></img>
-                                        <p className='rating_text'>7.5</p>
-                                    </div>
-                                    <div className='item_name'>
-                                        GoPro HERO6 4K Action Camera - Black
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style={{ display: "flex" }}>
-                            <div className='card1'>
-                                <div>
-                                    <div className='card_img'>
-                                        <img src={tablet} alt='...'></img>
-                                    </div>
-                                    <div className='card_price'>
-                                        <p>$99.50<span className='strike_price'><strike>$1128.00</strike></span></p>
-                                        <img className='like' src={heart} alt='...'></img>
-                                    </div>
-                                    <div className='rating'>
-                                        <img src={star4} alt='...'></img>
-                                        <p className='rating_text'>7.5</p>
-                                    </div>
-                                    <div className='item_name'>
-                                        GoPro HERO6 4K Action Camera - Black
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='card2'>
-                                <div>
-                                    <div className='card_img'>
-                                        <img src={camera} alt='...'></img>
-                                    </div>
-                                    <div className='card_price'>
-                                        <p>$99.50<span className='strike_price'><strike>$1128.00</strike></span></p>
-                                        <img className='like' src={heart} alt='...'></img>
-                                    </div>
-                                    <div className='rating'>
-                                        <img src={star4} alt='...'></img>
-                                        <p className='rating_text'>7.5</p>
-                                    </div>
-                                    <div className='item_name'>
-                                        GoPro HERO6 4K Action Camera - Black
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='card3'>
-                                <div>
-                                    <div className='card_img'>
-                                        <img src={iphone1} alt='...'></img>
-                                    </div>
-                                    <div className='card_price'>
-                                        <p>$99.50</p>
-                                        <img className='like_span' src={heart} alt='...'></img>
-                                    </div>
-                                    <div className='rating'>
-                                        <img src={star4} alt='...'></img>
-                                        <p className='rating_text'>7.5</p>
-                                    </div>
-                                    <div className='item_name'>
-                                        GoPro HERO6 4K Action Camera - Black
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style={{ display: "flex" }}>
-                            <div className='card1'>
-                                <div>
-                                    <div className='card_img'>
-                                        <img src={laptop} alt='...'></img>
-                                    </div>
-                                    <div className='card_price'>
-                                        <p>$99.50<span className='strike_price'><strike>$1128.00</strike></span></p>
-                                        <img className='like' src={heart} alt='...'></img>
-                                    </div>
-                                    <div className='rating'>
-                                        <img src={star4} alt='...' />
-                                        <p className='rating_text'>7.5</p>
-                                    </div>
-                                    <div className='item_name'>
-                                        GoPro HERO6 4K Action Camera - Black
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='card2'>
-                                <div>
-                                    <div className='card_img'>
-                                        <img src={watch} alt='...'></img>
-                                    </div>
-                                    <div className='card_price'>
-                                        <p>$99.50<span className='strike_price'><strike>$1128.00</strike></span></p>
-                                        <img className='like' src={heart} alt='...'></img>
-                                    </div>
-                                    <div className='rating'>
-                                        <img src={star4} alt='...'></img>
-                                        <p className='rating_text'>7.5</p>
-                                    </div>
-                                    <div className='item_name'>
-                                        GoPro HERO6 4K Action Camera - Black
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='card3'>
-                                <div>
-                                    <div className='card_img'>
-                                        <img src={Iphone} alt='...'></img>
-                                    </div>
-                                    <div className='card_price'>
-                                        <p>$99.50</p>
-                                        <img className='like_span' src={heart} alt='...'></img>
-                                    </div>
-                                    <div className='rating'>
-                                        <img src={star4} alt='...'></img>
-                                        <p className='rating_text'>7.5</p>
-                                    </div>
-                                    <div className='item_name'>
-                                        GoPro HERO6 4K Action Camera - Black
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            );
+                            })
+                        }
                     </div>
                     <div className='pagination'>
                         <div className='select_page'>
