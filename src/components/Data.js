@@ -21,6 +21,7 @@ import wallet from '../Images/wallet.png'
 import pent from '../Images/pent.png'
 import headphone from '../Images/headphone.png'
 import moneybank from '../Images/moneybank.png'
+import watch from '../Images/Watch.png'
 import coffejuj from '../Images/coffejuj.png'
 import sourc from '../Images/source.png'
 import coustmi from '../Images/customi.png'
@@ -188,23 +189,17 @@ export const gridveiw_data = [
         name : "GoPro HERO6 4K Action Camera - Black",
         price : "$99.50",
         sec_price : "$1128.00",
-        heart1 : heart,
-        star4 :star4
     },
     {
         name : "GoPro HERO6 4K Action Camera - Black",
         price : "$99.50",
-        sec_price : "$1128.00",
-        img1 : star3,
-        img2 :heart
+        sec_price : "$1128.00"
     }
     ,
     {
         name : "GoPro HERO6 4K Action Camera - Black",
         price : "$99.50",
-        sec_price : "$1128.00",
-        img1:heart,
-        img2:star4
+        sec_price : "$1128.00"
     }
 ]
 export const Data_rec = [

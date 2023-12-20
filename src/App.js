@@ -8,6 +8,7 @@ import Home from './components/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Fig2 from './components/Fig2';
 import { Container } from 'react-bootstrap';
+import Section1 from './components/Section1';
 function App() {
     const [loading, setloading] = useState(true);
 
@@ -29,7 +30,7 @@ function App() {
                     <Router>
                         <Routes>
                             <Route path='/' element={<Home />} />
-                            <Route path='/contact' element={<div><Navbar/><Container><Fig2 /></Container><Footer/></div>} />
+                            <Route path='/contact' element={<div><Navbar/><Container><Fig2 /></Container><Container><Section1/></Container><Footer/></div>} />
                         </Routes>
                     </Router>
                 </>

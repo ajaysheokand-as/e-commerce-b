@@ -199,7 +199,7 @@ function Section1() {
                                             <img src={star4} alt='...'></img>
                                             <p className='rating_text'>7.5</p>
                                             </div>
-                                        <div className='item_name'>{product.name}</div>
+                                        <div className='itemname'>{product.name}</div>
                                     </div>
                                 </div>
                                 <div class='card2'>
@@ -215,7 +215,7 @@ function Section1() {
                                             <img src={star3} alt='...'></img>
                                             <p className='rating_text'>5.9</p>
                                         </div>
-                                        <div className='item_name'>{product.name}</div>
+                                        <div className='itemname'>{product.name}</div>
                                     </div>
                                 </div>
                                 <div class='card3'>
@@ -231,7 +231,7 @@ function Section1() {
                                             <img src={star4} alt='...'></img>
                                             <p className='rating_text'>7.5</p>
                                         </div>
-                                        <div className='item_name'>{product.name}</div>
+                                        <div className='itemname'>{product.name}</div>
                                     </div>
                                 </div>
                             </div>
